@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4">
+  <diagram name="Page-1" id="7wKcDXf7Y7GJePFtoFyb">
+    <mxGraphModel dx="941" dy="658" grid="1" gridSize="10" guides="0" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="ellipse;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="42" y="21" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Создана" vertex="1">
+          <mxGeometry height="40" width="76" x="11" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Ожидает" vertex="1">
+          <mxGeometry height="40" width="81" x="8" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Отправка клиенту" vertex="1">
+          <mxGeometry height="40" width="149" x="205" y="8" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Оплачена" vertex="1">
+          <mxGeometry height="40" width="87" x="158" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Отменена" vertex="1">
+          <mxGeometry height="40" width="89" x="313" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="rounded=1;arcSize=20;strokeWidth=2" value="Подтверждена" vertex="1">
+          <mxGeometry height="40" width="124" x="139" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="1" style="ellipse;shape=endState;fillColor=strokeColor;" value="" vertex="1">
+          <mxGeometry height="14" width="14" x="272" y="326" as="geometry" />
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="2" style="curved=1;startArrow=none;;exitX=0.47;exitY=1;entryX=0.49;entryY=0;" target="3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="3" style="curved=1;startArrow=none;;exitX=0.49;exitY=1;entryX=0.5;entryY=0;" target="4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="curved=1;startArrow=none;;exitX=0.32;exitY=1;entryX=0.5;entryY=0;" target="6" value="Клиент оплатил">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="5" style="curved=1;startArrow=none;;exitX=0.68;exitY=1;entryX=0.5;entryY=0;" target="7" value="Истек срок оплаты">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="85" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="6" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="8" value="Проверка бронирования">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="8" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=0.03;entryY=0.3;" target="9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="201" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="7" style="curved=1;startArrow=none;;exitX=0.5;exitY=1;entryX=1.03;entryY=0.3;" target="9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="358" y="301" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
